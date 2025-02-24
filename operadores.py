@@ -14,6 +14,11 @@ b = 2
 c = 4
 d = 3
 
-y = a ** (b * 3) / ((2 - c) / d)
-
+y = (b * 3) * ((2 - c) / d) == 3**2
 print(y)
+
+## 2. operadores relacionales:
+#requieren de dos operandos numericos (int,float)
+# <, >, <=, >=, ==, !=
+# El resultado de una operacion relacional
+#es un valor booleano
