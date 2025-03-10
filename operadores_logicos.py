@@ -34,3 +34,19 @@ Jerarquia de predencia de operadores
 #ejemplo 4: Jerarqia de operadores
 y = False and not True or False
 print("el resultado de operar con jerarquia es" ,y)
+
+#ejemplo5: operadores relacionales y logicos 
+y = not 3 > 4 and 4 == 4 or 3 < 2 
+
+#ejemplo 6: operadores aritmeticos,
+#relaciones y logicos 
+
+y = 3 + 5 * 2 > 3 and 4 ==4 or 3 < 2 
+
+#ejemplo 7: con parentesis 
+
+y = (3 + 5)* (2 > 3) and 4 == 4 or not 3 < 2
+
+#ejemplo 8: Todo junto
+
+y = 4**2 * 3 < 6 / (7 - 5) and 7 * 2 + 1 == 4 or not 3 + 5 < 2
