@@ -13,10 +13,14 @@ y asi sucesivamente.
 
 
 edad = int(input("ingresa tu edad:"))
-if edad >=18:
+if edad > 18:
     print("puedes votar")
-elif edad == 17:
-    print("puedes votar el proximo año")
+elif edad == 18:
+    print("Bienvenido ciudadano puedes votar con la contraseña")
 elif edad < 17:
-    print("no puedes votar aun")
+ print("no puedes votar aun") 
+elif  edad > 10:
+    print("Eres muy peque, tienes registro civil")
+elif edad < 17:
+ print("no puedes votar aun") 
 print("Fin del programa")
