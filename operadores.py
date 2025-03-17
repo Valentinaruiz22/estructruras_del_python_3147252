@@ -22,3 +22,4 @@ print(y)
 # <, >, <=, >=, ==, !=
 # El resultado de una operacion relacional
 #es un valor booleano
+
